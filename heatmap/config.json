@@ -1,0 +1,21 @@
+{
+    "essential" : {
+            "graphic_data_url": "data.csv",
+            "sourceText":["Office for National Statistics"],
+            "sourceURL":["https://www.ons.gov.uk"],
+            "varcolour": ["#f03b20","#ffffb2","#fecc5c","#fd8d3c","#bd0026"],
+            "numberBreaks":4,
+            "breaks":[0,1,5,15,70],
+            "brickRatio_S_M_L":[0.33,0.44,0.5],
+            "unittext":"Percent: ",
+            "tooltipFormat":",.1f"
+    },
+    "optional" : {
+            "margin_sm": [170, 20, 0, 180],
+            "margin_md": [170, 20, 0, 180],
+            "margin_lg": [170, 160, 0, 180],
+
+            "mobileBreakpoint" : 450,
+            "tabletBreakpoint" : 600
+    }
+}
